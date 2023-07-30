@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    background-color: #1F2937;
+    height: max-content;
+    
+}
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-bottom: 30px; 
+    padding: 12px;
+    align-items: center;
+}
+div .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: 12px;
+    
+}
+.links a {
+    margin-right: 8px;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 12px;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+div .hero-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: baseline;
+}
+.hero h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero-image img {
+    width: auto;
+    height: 80vh;
+}
+.hero-text button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 100px;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    font-family: 'Roboto', Arial ;
+    align-items: center;
+}
+.content {
+    padding: 10px;
+    margin: 12px;
+    
+}
+.info-header h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.content-images{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.content-images img { 
+    height: 18vh;
+    width: auto;
+    border-radius: 25px;
+    /* padding: 10px; */
+    margin: 5px;
+    border: 3px solid;
+    border-color: #3882f6;
+
+}
+.quote-section {
+    background-color: #E5E7EB;
+    height: 50vh;
+    
+}
+.quote-section .quote {
+    padding-top: 8vh;
+    padding-left: 40vh;
+    padding-right: 30vh;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.quote-section .quote-author {
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 35vh;
+    font-weight: bold;
+}
+.signup-section {
+    
+    background-color: #ffffff;
+    height: 30vh;
+    
+    
+}
+.signup-box{
+    display: flex;
+    background-color: #3882f6;
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    border-radius: 8px;
+    border: none;
+    height: 12vh;
+    padding: 20px 100px ;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+}
+.signup-box .cta-head {
+    font-size: 24px;
+    font-family: 'Roboto', Arial;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.signup-box .cta-para {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.signup-button button{
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 100px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid white;
+    font-family: 'Roboto', Arial ;
+    align-items: center;
+}
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 8vh;
+    text-align: center;
+    padding-top: 8px;
+    line-height: 8vh;
+}
+
